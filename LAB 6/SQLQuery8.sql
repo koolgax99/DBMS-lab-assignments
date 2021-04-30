@@ -1,0 +1,8 @@
+USE Hospital
+Go
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+GO
+BEGIN TRAN Trans_Isolation1
+
+Select * from T1_Patient
+WHERE patient_id = 2;

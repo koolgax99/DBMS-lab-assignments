@@ -1,0 +1,1 @@
+EXEC p_doctor 1;
